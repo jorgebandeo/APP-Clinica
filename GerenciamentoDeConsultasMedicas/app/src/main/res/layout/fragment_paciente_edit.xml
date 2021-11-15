@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Paciente.PacienteEditFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TituloPacienteViewEDIT"
+                android:gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_Pas" />
+
+            <TextView
+                android:id="@+id/PacienteTituloNomeEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/P_nome" />
+
+            <EditText
+                android:id="@+id/CampoPacienteNomeEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+            <TextView
+                android:id="@+id/PacienteTituloGrpsEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Pacinete_grps" />
+
+            <Spinner
+                android:id="@+id/spinnerGrupSEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/PacienteTituloCelularEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/P_celular" />
+
+            <EditText
+                android:id="@+id/CampoPacienteCelularEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/PacienteTituloFixoEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/P_fixo" />
+
+            <EditText
+                android:id="@+id/CampoPacienteFixoEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ButtonPacienteExluirEDIT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/app_EXC"
+                    app:backgroundTint="#FF427F9F"
+                    app:rippleColor="#FF0000"
+                    app:strokeColor="#427F9F"
+                    tools:rippleColor="#FF0000"
+                    tools:strokeColor="#FF0000" />
+
+                <Button
+                    android:id="@+id/ButtonPacienteSalvarEDIT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundTint="#FF427F9F"
+                    android:layout_weight="1"
+                    android:text="@string/app_SAV" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

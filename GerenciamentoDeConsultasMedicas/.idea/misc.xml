@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_blank.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_consulta_add.xml" value="0.33" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_consulta_edit.xml" value="0.18" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_consulta_list.xml" value="0.2" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_consulta_main.xml" value="0.3262786596119929" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_itens_consulta.xml" value="0.22" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_itens_medico.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_itens_paciente.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_medico_add.xml" value="0.24107142857142858" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_medico_edit.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_medico_list.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_medico_main.xml" value="0.19701086956521738" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_paciente_add.xml" value="0.2079207920792079" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_paciente_edit.xml" value="0.22" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_paciente_list.xml" value="0.1" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/layout/fragment_paciente_mani.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/menu/fragment_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Jorge/AndroidStudioProjects/GerenciamentoDeConsultasMedicas/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

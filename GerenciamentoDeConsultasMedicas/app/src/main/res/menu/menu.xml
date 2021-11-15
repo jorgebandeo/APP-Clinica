@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuConsulta"
+        android:title="@string/app_Con"
+            />
+    <item
+        android:id="@+id/menuMedico"
+        android:title="@string/app_Med"
+        />
+    <item
+        android:id="@+id/menuPaciente"
+        android:title="@string/app_Pas"
+    />
+
+</menu>

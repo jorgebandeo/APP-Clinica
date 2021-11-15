@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Consulta.ConsultaEditFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TituloPrincipalConsultaViewEDIT"
+                android:gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_Con" />
+
+            <TextView
+                android:id="@+id/TituloDiaConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/app_MedicoSpinner" />
+
+            <Spinner
+                android:id="@+id/SpinnerMedicoConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/TituloHoraConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_PacienteSpinner" />
+
+            <Spinner
+                android:id="@+id/SpinnerPacienteConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/TituloDiaConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slelecione o dia da consulta" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/CampoDiaConsultaViewEDIT"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    />
+
+                <Button
+                    android:id="@+id/buttonSelectDiaEDIT"
+                    android:layout_width="70dp"
+                    app:backgroundTint="#FF427F9F"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Select" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TituloMedicoConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_DATAinicio" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/CampoHoraInicioConsultaViewEDIT"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    />
+
+                <Button
+                    android:id="@+id/buttonSelectInicioEDIT"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    app:backgroundTint="#FF427F9F"
+                    android:layout_weight="1"
+                    android:text="Select" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TituloPacienteConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_DATAfim" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/CampoHoraFimConsultaViewEDIT"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    />
+
+                <Button
+                    android:id="@+id/buttonSelectFinEDIT"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:backgroundTint="#FF427F9F"
+                    android:text="Select" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ComentarioConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_ConsultaComentario" />
+
+            <EditText
+                android:id="@+id/CampoComentarioConsultaViewEDIT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/ButtonExcluirConsultaEDIT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:backgroundTint="#FF427F9F"
+                    android:text="@string/app_EXC" />
+                <Button
+                    android:id="@+id/ButtonSalvarConsultaEDIT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:backgroundTint="#FF427F9F"
+                    android:text="@string/app_SAV" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

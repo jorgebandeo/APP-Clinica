@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GerenciamentoDeConsultasMedicas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--     DB      -->
+    <string name="app_database_name">GerenciamentoDeConsultasMedicas_Consultas</string>
+    <!--   OBJETOS   -->
+    <string name="app_Con">Consulta</string>
+    <string name="app_Med">Medico</string>
+    <string name="app_Pas">Paciente</string>
+
+    <!--   BUTTONS   -->
+    <string name="app_SAV">Salvar</string>
+    <string name="app_EXC">Excluir</string>
+    <string name="app_CAN">Cancelar</string>
+    <string name="app_Lis">Listar</string>
+    <string name="app_Nov">Novo</string>
+
+    <!--   VISUAL Consulta Fragment   -->
+    <string name="app_MedicoSpinner">Selecione um medico</string>
+    <string name="app_PacienteSpinner">Selecione um paciente</string>
+    <string name="app_DATAinicio">Data e horario de inicio da consulta</string>
+    <string name="app_DATAfim">Data e horario de fim da consulta</string>
+    <string name="app_ConsultaComentario">Comentario adicional</string>
+
+
+    <!--   VISUAL   -->
+    <string name="P_nome">Nome completo</string>
+    <string name="Medico_crm">CRM:</string>
+    <string name="Pacinete_grps">Grupo Sanguineo:</string>
+    <string name="P_celular">Número de telefone celular</string>
+    <string name="P_fixo">Número de telefone fixo</string>
+
+    <!--   VISUAL Spinner sague  -->
+    <string-array name="spinnerItemsGrupS">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+</resources>

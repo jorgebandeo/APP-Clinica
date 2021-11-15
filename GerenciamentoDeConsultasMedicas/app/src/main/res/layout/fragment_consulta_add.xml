@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consulta.ConsultaAddFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TituloPrincipalConsultaViewADD"
+                android:gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_Con" />
+
+            <TextView
+                android:id="@+id/TituloMedicoConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_MedicoSpinner" />
+
+            <Spinner
+                android:id="@+id/SpinnerMedicoConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/TituloHoraConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_PacienteSpinner" />
+
+            <Spinner
+                android:id="@+id/SpinnerPacienteConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/TituloDiaConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Slelecione o dia da consulta" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/CampoDiaConsultaViewADD"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    />
+
+                <Button
+                    android:id="@+id/buttonSelectDia"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:backgroundTint="#FF427F9F"
+                    android:text="Select" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TituloHoraIConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/app_DATAinicio" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/CampoHoraInicioConsultaViewADD"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                     />
+
+                <Button
+                    android:id="@+id/buttonSelectInicio"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:backgroundTint="#FF427F9F"
+                    android:text="Select" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TituloHoraFConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_DATAfim" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/CampoHoraFimConsultaViewADD"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                   />
+
+                <Button
+                    android:id="@+id/buttonSelectFin"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:backgroundTint="#FF427F9F"
+                    android:text="Select" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ComentarioConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_ConsultaComentario" />
+
+            <EditText
+                android:id="@+id/CampoComentarioConsultaViewADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="359dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ButtonSalvarConsultaADD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="50dp"
+                    android:gravity="top"
+                    app:cornerRadius="100dp"
+                    app:icon="@android:drawable/ic_input_add"
+                    app:iconPadding="0dp"
+                    app:backgroundTint="#FF427F9F"
+                    app:iconSize="60dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

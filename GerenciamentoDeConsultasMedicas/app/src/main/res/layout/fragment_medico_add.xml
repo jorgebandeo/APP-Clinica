@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Medico.MedicoAddFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TituloMedicoViewADD"
+                android:gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_Med" />
+
+            <TextView
+                android:id="@+id/MedicoTituloNomeADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/P_nome" />
+
+            <EditText
+                android:id="@+id/CampoMedicoNomeADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+            <TextView
+                android:id="@+id/MedicoTituloCRMADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Medico_crm" />
+
+            <EditText
+                android:id="@+id/CampoMedicoCrmADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+            <TextView
+                android:id="@+id/MedicoTituloCelularADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/P_celular" />
+
+            <EditText
+                android:id="@+id/CampoMedicoCelularADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/MedicoTituloFixoADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/P_fixo" />
+
+            <EditText
+                android:id="@+id/CampoMedicoFixoADD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+
+                <Button
+                    android:id="@+id/ButtonMedicoSalvarADD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:backgroundTint="#FF427F9F"
+                    android:text="@string/app_SAV" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
